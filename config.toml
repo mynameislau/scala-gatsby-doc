@@ -1,0 +1,19 @@
+siteTitle="Documentation Scala"
+baseColor = "#884499"
+linkPrefix = "/gatsby-starter-documentation"
+[[docPages]]
+root = "/docs/"
+[[docPages]]
+title = "front-end"
+  [[docPages.children]]
+  root = "/docs/front-end/javascript/"
+  [[docPages.children]]
+  root = "/docs/front-end/truc/"
+[[docPages]]
+root = "/docs/how-to-run/"
+[[docPages]]
+root = "/docs/some-react-code/"
+[[docPages]]
+root = "/docs/the-next-step/"
+[[docPages]]
+root = "/docs/conclusion/"
